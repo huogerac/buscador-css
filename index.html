@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container pink">
+      <header class="light">
+        <img
+          src="https://www.livelo.com.br/file/general/config_BSR_logo-buser-cep.png"
+          width="160"
+          alt=""
+        />
+        <a class="link" href="">Entrar</a>
+      </header>
+      <main class="ma-1">
+        <h1 class="title">
+          viagens de ônibus mais baratas que a passagem da rodoviária
+        </h1>
+        <p class="sub-title">Sem taxas, com segurança e preço justo</p>
+        <div class="card light pa-1">
+          <div class="form">
+            <label for="">Saindo de</label>
+            <select
+              class="form-input"
+              name=""
+              id=""
+              placeholder="Digite uma cidade"
+            >
+              <option value="" disabled selected hidden>
+                Escolha uma cidade
+              </option>
+              <option value="">São Paulo - SP</option>
+              <option value="">Cidade 2</option>
+            </select>
+          </div>
+          <div class="form">
+            <label for="">Indo para</label>
+            <select
+              class="form-input"
+              name=""
+              id=""
+              placeholder="Digite uma cidade"
+            >
+              <option value="" disabled selected hidden>
+                Escolha uma cidade
+              </option>
+
+              <option value="">São Paulo - SP</option>
+              <option value="">Cidade 2</option>
+            </select>
+          </div>
+          <div class="form">
+            <label for="">Data de ida</label>
+            <input
+              class="form-input"
+              type="text"
+              name=""
+              id=""
+              value=""
+              placeholder="Ida"
+              onfocus="(this.type='date')"
+              onblur="(this.type='text')"
+            />
+          </div>
+          <div class="form">
+            <label for="">Data de volta</label>
+            <input
+              class="form-input"
+              type="text"
+              name=""
+              id=""
+              value=""
+              placeholder="Volta"
+              onfocus="(this.type='date')"
+              onblur="(this.type='text')"
+            />
+          </div>
+          <button class="btn pink">Buscar</button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
